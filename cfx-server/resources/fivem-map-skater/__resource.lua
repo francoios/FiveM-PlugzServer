@@ -1,3 +1,3 @@
-resource_type 'map' { gameTypes = { essentialmode  = true } }
+resource_type 'map' { gameTypes = { essentialmode = true } }
 
 map 'map.lua'

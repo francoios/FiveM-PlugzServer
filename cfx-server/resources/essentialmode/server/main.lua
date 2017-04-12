@@ -10,9 +10,9 @@ commands = {}
 settings = {}
 settings.defaultSettings = {
 	['banReason'] = "You are currently banned. Please go to: insertsite.com/bans",
-	['pvpEnabled'] = false,
+	['pvpEnabled'] = true,
 	['permissionDenied'] = false,
-	['debugInformation'] = false,
+	['debugInformation'] = true,
 	['startingCash'] = 0,
 	['enableRankDecorators'] = false
 }

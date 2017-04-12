@@ -2,8 +2,9 @@
 TriggerEvent('es:addCommand', 'help', function(source, args, user)
   TriggerClientEvent("chatMessage", source, "^3SYSTEM", {255, 255, 255}, "Player Commands ")
 	TriggerClientEvent("chatMessage", source, "^3SYSTEM", {255, 255, 255}, "-------------------------------------------------------")
-	TriggerClientEvent("chatMessage", source, "^3SYSTEM", {255, 255, 255}, "/pv - Get teleported in your personal vehicle")
-	TriggerClientEvent("chatMessage", source, "^3SYSTEM", {255, 255, 255}, "/rmwanted - Remove your wanted level")
+	TriggerClientEvent("chatMessage", source, "^3SYSTEM", {255, 255, 255}, "/hu - Pour mettre le mains en l'air")
+	TriggerClientEvent("chatMessage", source, "^3SYSTEM", {255, 255, 255}, "Appuyer sur M pour les commandes vehicule")
+	TriggerClientEvent("chatMessage", source, "^3SYSTEM", {255, 255, 255}, "Appuyer sur F5 pour changer de skin")
 end)
 
 TriggerEvent('es:addCommand', 'rmwanted', function(source)

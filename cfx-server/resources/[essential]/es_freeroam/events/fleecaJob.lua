@@ -58,7 +58,7 @@ function tick()
 		if not(IsPlayerWantedLevelGreater(GetPlayerPed(playerPed),0)) then
 					SetPedComponentVariation(playerPed, 9, 0, 0, 0)
 					PlayMissionCompleteAudio("FRANKLIN_BIG_01")
-          TriggerServerEvent('mission:completed', 500000)
+          TriggerServerEvent('mission:completed', 50000)
           DrawMissionText("Good job! here is some ~y~cash.", 5000)
 					Stage=0
 			end

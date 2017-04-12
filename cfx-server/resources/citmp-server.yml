@@ -1,0 +1,63 @@
+ListenPort: 30120
+
+PreParseResources:
+    - mapmanager
+
+AutoStartResources:
+    - keks
+    - spawnmanager
+    - fivem-map-skater
+    - baseevents
+    - rconlog
+    - hardcap # prevents too many players from joining
+    - es_freeroam
+    - frfuel
+    - stations
+    - es_truckerjob
+    - essentialmode
+    - es_admin
+    - es_lscustoms
+    - taxi
+    - vehcontrol
+    - handsup
+    - cuff
+    - pv-voip
+    - garage
+    - clothes
+    - es_vehshop
+    - customchat
+    - msq-sync-and-acl
+    - fivem-loadouts
+    - life
+    - neverwanted
+    - PlayerMarkerBlocker
+    - deleteveh
+    - foodstores
+    - pv-tow
+    
+# do change
+RconPassword: lovely123
+
+# configure this, please
+Hostname: ^7FR ^5Plugz^7City^1RP ^3(STATION/JOB/MONEY) ^2(SERIOUS RP/ADMIN ACTIF) 
+
+# don't change this, it'll cause your server to be unlisted
+Game: GTA5
+
+PlatformServer: updater.fivereborn.com
+
+ScriptDebug: true
+
+DebugLog: true
+
+# set to false to hide from the online server list
+Announce: true
+
+# set to false to require players to be signed in to Steam
+DisableAuth: false
+
+# set to true to disable local script hook plugins
+DisableScriptHook: false
+
+# set to the path of an icon to use in the server browser. it should be square.
+ServerIcon: hello.png

@@ -2,16 +2,6 @@
 AddEventHandler('onClientMapStart', function()
     exports.spawnmanager:setAutoSpawn(true)
     exports.spawnmanager:forceRespawn()
-    exports.spawnmanager:setAutoSpawnCallback(function()
-        if spawnLock then
-            return
-        end
-
-        spawnLock = false
-
-        TriggerServerEvent('playerSpawn')
-        TriggerEvent('playerSpawn')
-    end)
 end)
 
 -- Allows the server to spawn the player
@@ -27,7 +17,7 @@ end)
       Wait(0)
 
       SetNotificationTextEntry("STRING");
-      AddTextComponentString("Welcome to ~g~FiveM!.\n ~y~For more info go to github.com/FiveM-Scripts");
+      AddTextComponentString("Bienvenue sur ~g~PlugzCityRP.\n ~y~Le serveur est en constante évolution.");
       SetNotificationMessage("CHAR_ALL_PLAYERS_CONF", "CHAR_ALL_PLAYERS_CONF", true, 1, "Essential Freeroam", "v0.1.3");
       DrawNotification(false, true);
       Wait(10000000)

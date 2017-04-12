@@ -96,12 +96,12 @@ function smoketick()
           SetPedIsDrunk(GetPlayerPed(-1), false)
           SetPedMotionBlur(GetPlayerPed(-1), false)
           -- Stop the mini mission
-          Citizen.Trace("Going back to reality\n")
+          Citizen.Trace("Reviens a la réalité\n")
         end
 
         function DealText()
           DrawMarker(1, -1171.42, -1572.72, 3.6636, 0, 0, 0, 0, 0, 0, 4.0, 4.0, 2.0, 178, 236, 93, 155, 0, 0, 2, 0, 0, 0, 0)
-          ShowInfo("Press ~INPUT_CONTEXT~ to buy drugs", 0)
+          ShowInfo("Appuyez sur ~INPUT_CONTEXT~ pour acheter de la drogue", 0)
         end
 
         function DrawMissionText(m_text, showtime)

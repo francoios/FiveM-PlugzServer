@@ -12,16 +12,12 @@ dependency 'essentialmode'
 client_scripts {
   'client.lua',
   'events/smoke.lua',
-  'events/fleecaJob.lua',
   'player/map.lua',
   'player/scoreboard.lua',
   'stores/stripclub.lua',
-  'stores/vehshop.lua',
 }
 
 server_scripts {
-  'config.lua',
   'server.lua',
   'player/commands.lua',
-  'stores/vehshop_s.lua',
 }
